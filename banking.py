@@ -23,7 +23,7 @@ class Account:
 debit = int(input("How much money you want to withdraw: "))
 credit = int(input("How much money you want to diposit: "))
 
-bal = 73000   
+bal = 10000   
 acc1 = Account(bal, 12345)
 print('The Account no is:', acc1.account_no)
 print('The total balance is:', acc1.balance)
